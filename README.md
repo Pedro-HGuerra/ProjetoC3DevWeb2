@@ -33,7 +33,18 @@ Certifique-se de ter os seguintes softwares instalados em sua máquina:
    npm install
    ```
 
-3. **Configure as Variáveis de Ambiente**
+3. **Inicie o Prisma**
+
+   ```bash
+   npx prisma generate
+   ```
+4. **Inicie o servidor**
+
+   ```bash
+   npx ts-node-dev ./src/app
+   ```
+
+5. **Configure as Variáveis de Ambiente**
 
    Crie um arquivo `.env` na raiz do projeto com o seguinte conteúdo:
 
