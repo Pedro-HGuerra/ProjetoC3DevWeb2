@@ -1,2 +1,2 @@
-# ProjetoC3DevWeb2
-Trabalho C3 Desenvolvimento Web 2
+DATABASE_URL="file:./dev.db"
+ jwt_Token_Validation= "SEU_TOKEN_AQUI"
